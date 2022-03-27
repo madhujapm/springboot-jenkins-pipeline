@@ -18,6 +18,7 @@ public class SpringbootJenkinsPipelineApplication {
 	}
 	public static void main(String[] args) {
 		logger.info(" Pipeline Application executed");
+		logger.info("I am running here in pipeline");
 		SpringApplication.run(SpringbootJenkinsPipelineApplication.class, args);
 	}
 
